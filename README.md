@@ -97,7 +97,7 @@ npm install
    
 npm run dev 
 
-Deploy o Despligue Online por Netlify:
+## Deploy o Despligue Online por Netlify:
 
 [Pagina Web](https://ubiquitous-malabi-afad06.netlify.app/).
 
