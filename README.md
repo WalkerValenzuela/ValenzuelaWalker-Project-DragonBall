@@ -69,6 +69,8 @@ npm run dev
 
 Deploy o Despligue Online por Netlify:
 
+[Pagina Web](https://ubiquitous-malabi-afad06.netlify.app/).
+
 Nombre: Walker Alejandro Valenzuela Guerrero
 Repositorio: [ValenzuelaWalker-Project-DragonBall](https://github.com/WalkerValenzuela/ValenzuelaWalker-Project-DragonBall)
 
