@@ -1,0 +1,79 @@
+.about-page{
+  background-color: ghostwhite;
+  margin: 70px auto 50px auto;
+  border-radius: 200px;
+  max-height: 1000px;
+  min-height: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+  max-width: 75%;
+}
+
+.aboutLogo{
+  margin-bottom: 50px;
+}
+
+.aboutWalker{
+  width: 300px;
+  border-radius: 10px;
+  margin-right: 25px;
+  margin-bottom: 20px;
+  
+}
+
+
+@media (min-width: 0px) {
+  .aboutLogo {
+    max-width: 500px;
+  }
+}
+
+@media (min-width: 730px) {
+  .aboutLogo {
+    max-width: 780px;
+  }
+}
+  
+@media (max-width: 842px) {
+  .aboutWalker {
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 440px) {
+  .about-page {
+    margin-top: 130px;
+  }
+}
+@media (max-width: 400px) {
+  .aboutLogo {
+    max-width: 350px;
+  }
+
+  .aboutWalker {
+    width: 200px;  
+  }
+
+  .about-page {
+    margin-top: 180px;
+    min-height: 789px;
+  }
+}
+
+.about-text{
+  text-align: center;
+}
+
+.aboutme{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about-information{
+  margin-bottom: 25px;
+}

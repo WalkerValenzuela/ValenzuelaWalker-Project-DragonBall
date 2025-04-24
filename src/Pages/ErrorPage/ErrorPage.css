@@ -1,0 +1,76 @@
+.main-container{
+    background-color: #ccc;
+    margin: auto;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-direction:column;
+    padding-top: 120px;
+}
+
+@media (max-width: 400px) {
+    .main-container {
+        padding-top: 170px;
+    }
+}
+
+.como{
+    padding: 20px;
+    background-color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-bottom: 15px;}
+
+.container{
+    background-color: rgb(189, 189, 189);
+    border-radius: 20px;
+    margin: auto;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-direction:column;
+    margin-bottom: 15px;
+}
+
+.goku{
+    height:400px;
+    width:300px;
+    object-fit: contain;
+    background-image:url("../../Images/errorpageGoku.png");
+    background-size:cover;
+    animation:animar 1s infinite alternate;
+}
+
+.sombra{
+    height:100px;
+    width:200px;
+    background:#333;
+    border-radius:50%;
+    transform:rotateX(-70deg);
+    animation:sombra 1s infinite alternate;
+}
+
+@keyframes animar{
+    to{
+        transform:translateY(-50px);
+    }
+}
+@keyframes sombra{
+    to{
+        transform:scale(0.6) rotateX(-70deg);
+        opacity:0.2;
+    }
+}
+
+.error-button {
+    background-color: #fbc02d;
+    color: white;
+    padding: 20px 60px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+}
