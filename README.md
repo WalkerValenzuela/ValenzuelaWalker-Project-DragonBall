@@ -10,7 +10,7 @@ Aplicación web que consume la [Dragon Ball API](https://dragonball-api.com/) pa
 - Navegación fluida sin recargas (SPA).
 - Diseño 100% responsive y adaptable a móviles.
 - Animaciones de entrada en las tarjetas (fade-in).
-- Estilizado personalizado con CSS y MUI (Material UI desactivado parcialmente).
+- Estilizado personalizado con CSS y MUI.
 
 ## Funcionalidades principales
 
@@ -45,43 +45,42 @@ Navegación fluida gracias al uso de react-router-dom, sin recargar la página.
 - [React](https://reactjs.org/)
 - [React Router](https://reactrouter.com/)
 - [Dragon Ball API](https://dragonball-api.com/)
-- CSS personalizado
+- [CSS](https://developer.mozilla.org/es/docs/Web/CSS) personalizado
 - [Vite](https://vitejs.dev/)
 
-## Estructura de Componentes (Ver en vista de Codigo)
-
-Project-DragonBall
-|-node_modules
-|-public
-|-src
-    |-assets
-    |-Components
-        |-CharacterCard
-        |-Footer
-        |-Navbar
-    |-Images
-        Background.webp
-        errorpageGoku.png
-        homeLogo.webp
-        iconLogo.webp
-        imageWalker.webp
-        promocionAWS.png
-        promocionN.png
-    |-Pages
-        |-AboutPage
-        |-CharacterDetailPage
-        |-ErrorPage
-        |-FemalePage
-        |-HomePage
-        |-MalePage
-    App.css
-    App.jsx
-    main.jsx
-...
-index.hmtl
-...
-README.md
-vite.config.js
+## Estructura de Componentes
+```plaintext
+Project-DragonBall/
+├── node_modules/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── Components/
+│   │   ├── CharacterCard/
+│   │   ├── Footer/
+│   │   └── Navbar/
+│   ├── Images/
+│   │   ├── Background.webp
+│   │   ├── errorpageGoku.png
+│   │   ├── homeLogo.webp
+│   │   ├── iconLogo.webp
+│   │   ├── imageWalker.webp
+│   │   ├── promocionAWS.png
+│   │   └── promocionN.png
+│   ├── Pages/
+│   │   ├── AboutPage/
+│   │   ├── CharacterDetailPage/
+│   │   ├── ErrorPage/
+│   │   ├── FemalePage/
+│   │   ├── HomePage/
+│   │   └── MalePage/
+│   ├── App.css
+│   ├── App.jsx
+│   └── main.jsx
+├── index.html
+├── README.md
+└── vite.config.js
+```
 
 ## Instalación
 
